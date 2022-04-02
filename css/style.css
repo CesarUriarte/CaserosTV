@@ -41,13 +41,14 @@ header nav ul li{
     
 }
 .main-section{
-    margin-top: 50px;
+    margin: 50px 0;
     padding: 20px;
     background-color: var(--secondary);
     text-align: center;
     color: aliceblue;
 }
-.main-section .title-welcome{
+.title-welcome{
+    color: aliceblue;
     line-height: 50px;
     font-size: 3rem;
 }
@@ -55,4 +56,25 @@ header nav ul li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: left;
+}
+.post-secondary{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 20px;
+}
+.post-seconday__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.post-card{
+    width: 300px;
+    height: 400px;
+    background-color: #f3f6f7;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.post-card img{
+    width: 90%;
 }
